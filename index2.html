@@ -16,8 +16,7 @@
         function Horario() {
             return <p>{new Date().toLocaleTimeString()}</p>
         }
-        const hora = <Horario/>
-        ReactDOM.render(hora, document.getElementById("root"));
+        ReactDOM.render(<Horario/>, document.getElementById("root"));
     </script>
 </body>
 </html>
